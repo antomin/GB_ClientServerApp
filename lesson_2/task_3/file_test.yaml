@@ -1,0 +1,9 @@
+all_quantity: 3
+items:
+- Printer
+- Scaner
+- Компьютер
+price:
+  dollars: 1000$
+  euro: 947€
+  rubles: 62000₽
