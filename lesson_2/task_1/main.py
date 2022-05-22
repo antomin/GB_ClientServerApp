@@ -43,7 +43,7 @@ import re
 FILES = ['info_1.txt', 'info_2.txt', 'info_3.txt']
 
 
-def get_data(files_lst: list):
+def get_data(files_lst: list) -> list:
     os_prod_list = []
     os_name_list = []
     os_code_list = []
@@ -66,8 +66,8 @@ def get_data(files_lst: list):
 
 def write_to_csv(new_csv: str):
     with open(new_csv, 'w', encoding='utf-8') as file:
-        file_writer = csv.writer(file, quoting=csv.QUOTE_NONNUMERIC)
+        file_writer = csv.writer(file)
         file_writer.writerows(get_data(FILES))
 
 
-write_to_csv('new_report.csv')
+write_to_csv('data_report.csv')
