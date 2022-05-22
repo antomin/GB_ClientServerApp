@@ -51,8 +51,8 @@ def get_data(files_lst: list) -> list:
     main_data = [['Изготовитель системы', 'Название ОС', 'Код продукта', 'Тип системы']]
 
     for file in files_lst:
-        with open(file) as curent_file:
-            file_read = curent_file.read()
+        with open(file, 'r', encoding='utf-8') as current_file:
+            file_read = current_file.read()
             os_prod_list.append(re.search(r'(?<=Изготовитель системы:).*', file_read).group().strip())
             os_name_list.append(re.search(r'(?<=Название ОС:).*', file_read).group().strip())
             os_code_list.append(re.search(r'(?<=Код продукта:).*', file_read).group().strip())
