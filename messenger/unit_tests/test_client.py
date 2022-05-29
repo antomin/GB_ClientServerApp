@@ -1,7 +1,7 @@
 import unittest
 
-from messenger.client import answer_handler, create_presence
-from messenger.common.settings import *
+from client import answer_handler, create_presence
+from common.settings import *
 
 
 class TestAnswerHandler(unittest.TestCase):

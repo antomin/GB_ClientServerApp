@@ -1,7 +1,7 @@
 import json
 import socket
 
-from messenger.common.settings import ENCODING, MAX_PACKAGE_LENGTH
+from common.settings import ENCODING, MAX_PACKAGE_LENGTH
 
 
 def msg_sender(sock: socket, message: dict) -> None:

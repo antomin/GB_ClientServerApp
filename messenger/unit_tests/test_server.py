@@ -1,7 +1,7 @@
 import unittest
 
-from messenger.common.settings import *
-from messenger.server import client_message_handler
+from common.settings import *
+from server import client_message_handler
 
 
 class TestClientMessageHandler(unittest.TestCase):

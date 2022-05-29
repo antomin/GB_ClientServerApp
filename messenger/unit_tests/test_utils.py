@@ -1,8 +1,8 @@
 import json
 import unittest
 
-from messenger.common.settings import *
-from messenger.common.utils import msg_reader, msg_sender
+from common.settings import *
+from common.utils import msg_reader, msg_sender
 
 
 class TestSocket:

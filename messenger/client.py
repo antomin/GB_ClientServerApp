@@ -2,9 +2,13 @@ import argparse
 import socket
 import sys
 import time
+import log.client_log_config
+import logging
 
-from messenger.common.settings import *
-from messenger.common.utils import *
+from common.settings import *
+from common.utils import *
+
+LOG = logging.getLogger('client')
 
 
 def answer_handler(message: dict) -> str:
@@ -17,7 +21,9 @@ def answer_handler(message: dict) -> str:
     """
 
     if message[RESPONSE] == 200:
+        LOG.info('Successful answer from server')
         return '200 | OK'
+    LOG.warning('Server connection issues')
     return f'{message[RESPONSE]} | {message[ERROR]}'
 
 
@@ -40,6 +46,8 @@ def create_presence(username: str = 'Guest', status: str = 'Online') -> dict:
         }
     }
 
+    LOG.debug('Presence message is formed')
+
     return data
 
 
@@ -58,10 +66,10 @@ def main():
         if port < 1024 or port > 65535:
             raise ValueError
     except ValueError:
-        print('Wrong port number.')
+        LOG.critical(f'Wrong server port number - {port}')
         sys.exit(1)
     except socket.error:
-        print('Wrong IP')
+        LOG.critical(f'Wrong server IP - {addr}')
         sys.exit(1)
 
     # Socket
@@ -74,8 +82,9 @@ def main():
 
     response = answer_handler(msg_reader(client_socket))
 
-    print(response)
+    LOG.debug(response)
 
 
 if __name__ == '__main__':
+    LOG.info('Client started')
     main()
