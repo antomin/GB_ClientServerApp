@@ -2,8 +2,8 @@ import argparse
 import socket
 import sys
 
-from common.settings import *
-from common.utils import *
+from messenger.common.settings import *
+from messenger.common.utils import *
 
 
 def client_message_handler(message: dict) -> dict:
@@ -15,7 +15,8 @@ def client_message_handler(message: dict) -> dict:
     Returns: Dict with status code.
     """
 
-    if message[ACTION] == PRESENCE and TIME in message and message[USER][ACCOUNT_NAME] == 'Guest':
+    if ACTION in message and message[ACTION] == PRESENCE and TIME in message \
+            and USER in message and message[USER][ACCOUNT_NAME] == 'Guest':
         return {RESPONSE: 200}
     return {RESPONSE: 400, ERROR: 'Bad request'}
 

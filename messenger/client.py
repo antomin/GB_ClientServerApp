@@ -3,8 +3,8 @@ import socket
 import sys
 import time
 
-from common.settings import *
-from common.utils import *
+from messenger.common.settings import *
+from messenger.common.utils import *
 
 
 def answer_handler(message: dict) -> str:
@@ -36,7 +36,7 @@ def create_presence(username: str = 'Guest', status: str = 'Online') -> dict:
         TIME: time.time(),
         USER: {
             ACCOUNT_NAME: username,
-            'status': status
+            STATUS: status
         }
     }
 

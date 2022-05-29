@@ -19,6 +19,7 @@ ACTION = 'action'
 TIME = 'time'
 USER = 'user'
 ACCOUNT_NAME = 'username'
+STATUS = 'status'
 
 # Other keys
 PRESENCE = 'presence'
