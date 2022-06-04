@@ -1,0 +1,8 @@
+2022-06-04 21:32:39,361        INFO       client.py Client started
+2022-06-04 21:32:39,367        DEBUG      client.py Presence message is formed
+2022-06-04 21:32:39,367        DEBUG      client.py Function create_presence was called with parameters ((), {}). From module __main__.
+2022-06-04 21:32:39,367        DEBUG      client.py Function msg_sender was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51720), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654371159.367536, 'user': {'username': 'Guest', 'status': 'Online'}}), {}). From module common.utils.
+2022-06-04 21:32:39,368        DEBUG      client.py Function msg_reader was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51720), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils.
+2022-06-04 21:32:39,368        INFO       client.py Successful answer from server
+2022-06-04 21:32:39,368        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__.
+2022-06-04 21:32:39,368        DEBUG      client.py 200 | OK

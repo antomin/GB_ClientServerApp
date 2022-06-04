@@ -4,6 +4,7 @@ import sys
 import time
 import log.client_log_config
 import logging
+from decos import log
 
 from common.settings import *
 from common.utils import *
@@ -11,6 +12,7 @@ from common.utils import *
 LOG = logging.getLogger('client')
 
 
+@log
 def answer_handler(message: dict) -> str:
     """Server response parsing.
 
@@ -27,6 +29,7 @@ def answer_handler(message: dict) -> str:
     return f'{message[RESPONSE]} | {message[ERROR]}'
 
 
+@log
 def create_presence(username: str = 'Guest', status: str = 'Online') -> dict:
     """Creating data for presence message.
 

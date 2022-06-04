@@ -1,0 +1,7 @@
+2022-06-04 21:32:34,242        INFO       server.py Server started on 127.0.0.1:7777 
+2022-06-04 21:32:39,367        DEBUG      server.py Message received from client ('127.0.0.1', 51720)
+2022-06-04 21:32:39,367        DEBUG      server.py Function msg_reader was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51720)>,), {}). From module common.utils.
+2022-06-04 21:32:39,368        DEBUG      server.py Valid message received from client - Guest
+2022-06-04 21:32:39,368        DEBUG      server.py Function client_message_handler was called with parameters (({'action': 'presence', 'time': 1654371159.367536, 'user': {'username': 'Guest', 'status': 'Online'}},), {}). From module __main__.
+2022-06-04 21:32:39,368        DEBUG      server.py Function msg_sender was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51720)>, {'response': 200}), {}). From module common.utils.
+2022-06-04 21:32:39,368        DEBUG      server.py Response sent to client ('127.0.0.1', 51720)

@@ -3,6 +3,7 @@ import socket
 import sys
 import logging
 import log.server_log_config
+from decos import log
 
 from common.settings import *
 from common.utils import *
@@ -10,6 +11,7 @@ from common.utils import *
 LOG = logging.getLogger('server')
 
 
+@log
 def client_message_handler(message: dict) -> dict:
     """Check message from client and return correct status code.
 

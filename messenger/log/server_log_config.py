@@ -1,7 +1,10 @@
 import logging
 import logging.handlers
+import sys
 
-_format = logging.Formatter('%(asctime)-30s %(levelname)-10s %(filename)-10s %(message)s')
+filename = sys.argv[0].split('/')[-1]
+
+_format = logging.Formatter(f'%(asctime)-30s %(levelname)-10s {filename} %(message)s')
 
 LOGGER = logging.getLogger('server')
 LOGGER.setLevel(logging.DEBUG)
