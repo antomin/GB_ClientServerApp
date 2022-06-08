@@ -1,12 +1,12 @@
 import json
 import socket
-from decos import log
 
 from common.settings import ENCODING, MAX_PACKAGE_LENGTH
+from decos import log
 
 
 @log
-def msg_sender(sock: socket, message: dict) -> None:
+def send_msg(sock: socket, message: dict) -> None:
     """Encoding and sending message from socket.
 
     Args:
@@ -18,7 +18,7 @@ def msg_sender(sock: socket, message: dict) -> None:
 
 
 @log
-def msg_reader(sock: socket) -> dict:
+def read_msg(sock: socket) -> dict:
     """Receiving and decoding a message.
 
     Args:

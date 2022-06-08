@@ -21,7 +21,12 @@ USER = 'user'
 ACCOUNT_NAME = 'username'
 STATUS = 'status'
 
-# Other keys
+# Action keys
+MESSAGE = 'message'
 PRESENCE = 'presence'
+
+# Other keys
+MSG_TEXT = 'message_text'
 RESPONSE = 'response'
 ERROR = 'error'
+SENDER = 'sender'
