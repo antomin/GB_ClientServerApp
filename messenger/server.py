@@ -27,7 +27,7 @@ def client_message_handler(message: dict, all_messages: list, client) -> None:
             LOG.debug(f'Valid message presence received from client - {message[ACCOUNT_NAME]}')
             send_msg(client, {RESPONSE: 200})
         elif message[ACTION] == MESSAGE:
-            all_messages.append({'username': message[ACCOUNT_NAME], 'msg_text': message[MSG_TEXT]})
+            all_messages.append({'username': message[ACCOUNT_NAME], 'recipient': message[RECIPIENT], 'msg_text': message[MSG_TEXT]})
         else:
             LOG.warning('Incorrect message received from client')
             send_msg(client, {RESPONSE: 400, ERROR: 'Bad request'})
@@ -107,6 +107,7 @@ def main():
                     ACTION: MESSAGE,
                     SENDER: msg['username'],
                     TIME: time.time(),
+                    RECIPIENT: msg[RECIPIENT],
                     MSG_TEXT: msg['msg_text']
                     }
                 all_messages.remove(msg)
