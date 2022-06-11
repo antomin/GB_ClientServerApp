@@ -1,0 +1,601 @@
+2022-06-08 15:03:22,214        INFO       client.py Client started
+2022-06-08 15:03:22,221        DEBUG      client.py Presence message is formed
+2022-06-08 15:03:22,222        DEBUG      client.py Function create_presence was called with parameters (('1',), {}). From module __main__. Inside function main()
+2022-06-08 15:03:22,222        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51729), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654693402.221965, 'username': '1', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-08 15:03:27,711        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51729), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-08 15:03:27,711        INFO       client.py Successful answer from server
+2022-06-08 15:03:27,711        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-08 15:03:27,711        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-08 15:03:35,755        INFO       client.py Client started
+2022-06-08 15:03:35,762        DEBUG      client.py Presence message is formed
+2022-06-08 15:03:35,763        DEBUG      client.py Function create_presence was called with parameters (('2',), {}). From module __main__. Inside function main()
+2022-06-08 15:03:35,763        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51731), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654693415.762325, 'username': '2', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-08 15:03:40,524        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51731), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-08 15:03:40,524        INFO       client.py Successful answer from server
+2022-06-08 15:03:40,524        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-08 15:03:40,524        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-08 15:04:10,033        ERROR      client.py Server connection lost
+2022-06-08 15:04:12,809        INFO       client.py Client started
+2022-06-08 15:04:12,815        DEBUG      client.py Presence message is formed
+2022-06-08 15:04:12,815        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-08 15:04:12,816        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51732), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654693452.815304, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-08 15:04:15,968        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51732), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-08 15:04:15,968        INFO       client.py Successful answer from server
+2022-06-08 15:04:15,968        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-08 15:04:15,968        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-08 15:04:21,256        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51732), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1654693461.256181, 'username': 'anton', 'message_text': 'kjgk'}), {}). From module common.utils. Inside function main()
+2022-06-08 15:04:25,383        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51729), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-08 15:04:25,383        DEBUG      client.py Message from anton received
+2022-06-08 15:04:25,384        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51731), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-08 15:04:25,384        DEBUG      client.py Message from anton received
+2022-06-08 15:04:35,665        INFO       client.py Client logged out.
+2022-06-08 15:06:55,226        INFO       client.py Client started
+2022-06-08 15:06:55,232        DEBUG      client.py Presence message is formed
+2022-06-08 15:06:55,232        DEBUG      client.py Function create_presence was called with parameters (('1',), {}). From module __main__. Inside function main()
+2022-06-08 15:06:55,233        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51735), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654693615.232439, 'username': '1', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-08 15:06:55,738        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51735), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-08 15:06:55,738        INFO       client.py Successful answer from server
+2022-06-08 15:06:55,738        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-08 15:06:55,738        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-08 15:06:56,988        INFO       client.py Client started
+2022-06-08 15:06:56,995        DEBUG      client.py Presence message is formed
+2022-06-08 15:06:56,996        DEBUG      client.py Function create_presence was called with parameters (('2',), {}). From module __main__. Inside function main()
+2022-06-08 15:06:56,996        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51736), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654693616.995706, 'username': '2', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-08 15:06:57,498        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51736), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-08 15:06:57,498        INFO       client.py Successful answer from server
+2022-06-08 15:06:57,498        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-08 15:06:57,498        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-08 15:06:58,706        INFO       client.py Client started
+2022-06-08 15:06:58,713        DEBUG      client.py Presence message is formed
+2022-06-08 15:06:58,714        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-08 15:06:58,714        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51737), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654693618.71372, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-08 15:06:59,217        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51737), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-08 15:06:59,217        INFO       client.py Successful answer from server
+2022-06-08 15:06:59,217        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-08 15:06:59,217        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-08 15:07:02,072        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51737), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1654693622.072458, 'username': 'anton', 'message_text': 'hjfkh'}), {}). From module common.utils. Inside function main()
+2022-06-08 15:07:02,224        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51735), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-08 15:07:02,225        DEBUG      client.py Message from anton received
+2022-06-08 15:07:02,225        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51736), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-08 15:07:02,226        DEBUG      client.py Message from anton received
+2022-06-08 15:07:07,144        INFO       client.py Client logged out.
+2022-06-08 15:08:12,093        INFO       client.py Client started
+2022-06-08 15:08:12,100        DEBUG      client.py Presence message is formed
+2022-06-08 15:08:12,101        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-08 15:08:12,101        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51738), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654693692.1005208, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-08 15:08:12,603        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 51738), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-08 15:08:12,603        INFO       client.py Successful answer from server
+2022-06-08 15:08:12,603        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-08 15:08:12,603        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-08 15:08:14,968        INFO       client.py Client logged out.
+2022-06-09 16:42:22,918        INFO       client.py Client started
+2022-06-09 16:42:22,924        DEBUG      client.py Presence message is formed
+2022-06-09 16:42:22,924        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-09 16:42:22,925        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50365), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654785742.9243011, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-09 16:42:23,426        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50365), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-09 16:42:23,427        INFO       client.py Successful answer from server
+2022-06-09 16:42:23,427        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-09 16:42:23,427        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-09 16:43:14,695        INFO       client.py Client started
+2022-06-09 16:43:14,698        DEBUG      client.py Presence message is formed
+2022-06-09 16:43:14,699        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-09 16:43:14,700        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50368), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654785794.6982021, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-09 16:43:15,201        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50368), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-09 16:43:15,201        INFO       client.py Successful answer from server
+2022-06-09 16:43:15,202        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-09 16:43:15,202        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-09 16:44:09,168        INFO       client.py Client started
+2022-06-09 16:45:16,731        DEBUG      client.py Presence message is formed
+2022-06-09 16:45:16,734        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-09 16:45:21,145        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50374), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654785916.731714, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-09 16:45:24,700        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50374), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-09 16:45:24,700        INFO       client.py Successful answer from server
+2022-06-09 16:45:24,701        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-09 16:45:30,118        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-09 16:46:29,241        INFO       client.py Client started
+2022-06-09 16:46:29,252        DEBUG      client.py Presence message is formed
+2022-06-09 16:46:29,252        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-09 16:46:29,253        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50376), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654785989.252297, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-09 16:46:29,755        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50376), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-09 16:46:29,755        INFO       client.py Successful answer from server
+2022-06-09 16:46:29,755        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-09 16:46:29,755        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-09 16:46:38,580        INFO       client.py Client started
+2022-06-09 16:46:38,587        DEBUG      client.py Presence message is formed
+2022-06-09 16:46:38,587        DEBUG      client.py Function create_presence was called with parameters (('nikolay',), {}). From module __main__. Inside function main()
+2022-06-09 16:46:38,587        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50377), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654785998.587091, 'username': 'nikolay', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-09 16:46:39,089        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50377), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-09 16:46:39,089        INFO       client.py Successful answer from server
+2022-06-09 16:46:39,090        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-09 16:46:39,090        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-09 16:46:44,731        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50376), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1654786004.730405, 'username': 'anton', 'recipient': 'asd', 'message_text': 'asdasda'}), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-09 16:46:45,098        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50374), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function **self.kwargs)
+2022-06-09 16:46:45,098        DEBUG      client.py Message from anton received
+2022-06-09 16:47:43,818        INFO       client.py Client started
+2022-06-09 16:47:52,005        INFO       client.py Client started
+2022-06-09 16:47:52,011        DEBUG      client.py Presence message is formed
+2022-06-09 16:47:52,012        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-09 16:47:52,012        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50379), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654786072.011491, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-09 16:47:52,513        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50379), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-09 16:47:52,513        INFO       client.py Successful answer from server
+2022-06-09 16:47:52,514        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-09 16:47:52,514        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-09 16:47:54,652        INFO       client.py Client started
+2022-06-09 16:47:54,658        DEBUG      client.py Presence message is formed
+2022-06-09 16:47:54,659        DEBUG      client.py Function create_presence was called with parameters (('nikolay',), {}). From module __main__. Inside function main()
+2022-06-09 16:47:54,659        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50380), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654786074.6589599, 'username': 'nikolay', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-09 16:47:55,160        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50380), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-09 16:47:55,160        INFO       client.py Successful answer from server
+2022-06-09 16:47:55,160        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-09 16:47:55,160        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-09 16:48:00,352        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50379), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1654786080.351153, 'username': 'anton', 'recipient': 'qwe', 'message_text': 'qweqweq'}), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-09 16:48:00,669        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50379), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-09 16:48:00,669        DEBUG      client.py Message from anton received
+2022-06-09 16:48:00,670        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50380), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-09 16:48:00,670        DEBUG      client.py Message from anton received
+2022-06-11 18:06:42,224        INFO       client.py Client started
+2022-06-11 18:06:42,230        DEBUG      client.py Presence message is formed
+2022-06-11 18:06:42,231        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-11 18:06:42,231        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52691), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654963602.230905, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:06:42,733        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52691), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:06:42,733        INFO       client.py Successful answer from server
+2022-06-11 18:06:42,733        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:06:42,733        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:06:46,182        INFO       client.py Client started
+2022-06-11 18:06:46,190        DEBUG      client.py Presence message is formed
+2022-06-11 18:06:46,190        DEBUG      client.py Function create_presence was called with parameters (('nikolay',), {}). From module __main__. Inside function main()
+2022-06-11 18:06:46,190        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52692), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654963606.19002, 'username': 'nikolay', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:06:46,692        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52692), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:06:46,692        INFO       client.py Successful answer from server
+2022-06-11 18:06:46,693        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:06:46,693        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:06:48,787        INFO       client.py Client started
+2022-06-11 18:06:48,794        DEBUG      client.py Presence message is formed
+2022-06-11 18:06:48,794        DEBUG      client.py Function create_presence was called with parameters (('vasiliy',), {}). From module __main__. Inside function main()
+2022-06-11 18:06:48,794        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52699), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654963608.794145, 'username': 'vasiliy', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:06:49,296        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52699), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:06:49,297        INFO       client.py Successful answer from server
+2022-06-11 18:06:49,297        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:06:49,297        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:07:01,713        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52699), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1654963621.712318, 'username': 'vasiliy', 'recipient': 'anton', 'message_text': 'Hello'}), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:07:01,815        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52699), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:07:01,815        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52692), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:07:01,815        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52691), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:07:01,815        DEBUG      client.py Message from vasiliy received
+2022-06-11 18:07:01,815        DEBUG      client.py Message from vasiliy received
+2022-06-11 18:07:01,815        DEBUG      client.py Message from vasiliy received
+2022-06-11 18:07:18,681        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52692), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1654963638.6806881, 'username': 'nikolay', 'recipient': 'dq', 'message_text': 'wtwt'}), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:07:18,838        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52691), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:07:18,839        DEBUG      client.py Message from nikolay received
+2022-06-11 18:07:18,839        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52692), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:07:18,839        DEBUG      client.py Message from nikolay received
+2022-06-11 18:07:18,839        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52699), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:07:18,839        DEBUG      client.py Message from nikolay received
+2022-06-11 18:08:05,538        INFO       client.py Client logged out.
+2022-06-11 18:09:05,275        INFO       client.py Client logged out.
+2022-06-11 18:09:46,560        INFO       client.py Client started
+2022-06-11 18:09:46,566        DEBUG      client.py Presence message is formed
+2022-06-11 18:09:46,567        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-11 18:09:46,567        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52700), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654963786.566903, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:09:47,069        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52700), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:09:47,069        INFO       client.py Successful answer from server
+2022-06-11 18:09:47,070        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:09:47,070        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:09:50,173        INFO       client.py Client logged out.
+2022-06-11 18:10:35,159        INFO       client.py Client started
+2022-06-11 18:10:35,165        DEBUG      client.py Presence message is formed
+2022-06-11 18:10:35,166        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-11 18:10:35,166        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52703), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654963835.1657221, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:10:35,668        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52703), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:10:35,668        INFO       client.py Successful answer from server
+2022-06-11 18:10:35,668        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:10:35,668        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:10:37,326        INFO       client.py Client logged out.
+2022-06-11 18:10:37,328        DEBUG      client.py Function client_exit was called with parameters ((<socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>,), {}). From module __main__. Inside function self._bootstrap_inner()
+2022-06-11 18:11:21,979        INFO       client.py Client started
+2022-06-11 18:11:21,989        DEBUG      client.py Presence message is formed
+2022-06-11 18:11:21,990        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-11 18:11:21,990        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52704), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654963881.989559, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:11:22,492        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52704), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:11:22,492        INFO       client.py Successful answer from server
+2022-06-11 18:11:22,493        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:11:22,493        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:11:28,689        DEBUG      client.py Function client_exit was called with parameters ((<socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>,), {}). From module __main__. Inside function self._bootstrap_inner()
+2022-06-11 18:11:46,508        INFO       client.py Client started
+2022-06-11 18:11:46,515        DEBUG      client.py Presence message is formed
+2022-06-11 18:11:46,515        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-11 18:11:46,516        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52705), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654963906.51555, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:11:47,018        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52705), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:11:47,018        INFO       client.py Successful answer from server
+2022-06-11 18:11:47,018        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:11:47,018        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:11:49,096        INFO       client.py Client logged out.
+2022-06-11 18:15:27,590        INFO       client.py Client started
+2022-06-11 18:15:27,598        DEBUG      client.py Presence message is formed
+2022-06-11 18:15:27,599        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-11 18:15:27,599        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52795), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654964127.598944, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:15:28,100        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52795), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:15:28,100        INFO       client.py Successful answer from server
+2022-06-11 18:15:28,101        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:15:28,101        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:15:30,231        INFO       client.py Client logged out.
+2022-06-11 18:15:32,569        INFO       client.py Client started
+2022-06-11 18:15:32,575        DEBUG      client.py Presence message is formed
+2022-06-11 18:15:32,576        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-11 18:15:32,576        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52796), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654964132.575542, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:15:33,078        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52796), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:15:33,078        INFO       client.py Successful answer from server
+2022-06-11 18:15:33,078        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:15:33,078        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:15:37,511        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52796), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1654964137.510245, 'username': 'anton', 'recipient': 'qer', 'message_text': 'qrqwrq'}), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:15:37,584        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52692), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:15:37,584        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52796), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:15:37,584        DEBUG      client.py Message from anton received
+2022-06-11 18:15:37,584        DEBUG      client.py Message from anton received
+2022-06-11 18:16:31,784        INFO       client.py Client started
+2022-06-11 18:16:31,792        DEBUG      client.py Presence message is formed
+2022-06-11 18:16:31,793        DEBUG      client.py Function create_presence was called with parameters (('nikolay',), {}). From module __main__. Inside function main()
+2022-06-11 18:16:31,793        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52806), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654964191.792883, 'username': 'nikolay', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:16:32,294        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52806), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:16:32,294        INFO       client.py Successful answer from server
+2022-06-11 18:16:32,294        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:16:32,295        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:16:35,795        INFO       client.py Client started
+2022-06-11 18:16:35,801        DEBUG      client.py Presence message is formed
+2022-06-11 18:16:35,802        DEBUG      client.py Function create_presence was called with parameters (('nikolay',), {}). From module __main__. Inside function main()
+2022-06-11 18:16:35,802        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52807), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654964195.801528, 'username': 'nikolay', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:16:36,304        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52807), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:16:36,304        INFO       client.py Successful answer from server
+2022-06-11 18:16:36,304        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:16:36,304        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:16:48,343        INFO       client.py Client started
+2022-06-11 18:16:48,349        DEBUG      client.py Presence message is formed
+2022-06-11 18:16:48,350        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-11 18:16:48,350        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52808), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654964208.3497841, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:16:48,852        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52808), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:16:48,852        INFO       client.py Successful answer from server
+2022-06-11 18:16:48,853        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:16:48,853        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:16:58,079        INFO       client.py Client started
+2022-06-11 18:16:58,089        DEBUG      client.py Presence message is formed
+2022-06-11 18:16:58,090        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-11 18:16:58,090        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52809), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654964218.089674, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:16:58,096        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52809), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:16:58,096        INFO       client.py Successful answer from server
+2022-06-11 18:16:58,096        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:16:58,096        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:17:19,782        INFO       client.py Client started
+2022-06-11 18:17:19,790        DEBUG      client.py Presence message is formed
+2022-06-11 18:17:19,790        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-11 18:17:19,791        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52812), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654964239.790407, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:17:20,292        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52812), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:17:20,292        INFO       client.py Successful answer from server
+2022-06-11 18:17:20,292        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:17:20,292        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:20:36,123        INFO       client.py Client started
+2022-06-11 18:20:36,135        DEBUG      client.py Presence message is formed
+2022-06-11 18:20:36,136        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-11 18:20:36,136        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49225), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654964436.135349, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:20:36,637        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49225), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:20:36,637        INFO       client.py Successful answer from server
+2022-06-11 18:20:36,637        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:20:36,638        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:23:07,478        INFO       client.py Client started
+2022-06-11 18:23:07,488        DEBUG      client.py Presence message is formed
+2022-06-11 18:23:07,488        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-11 18:23:07,488        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49238), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654964587.488022, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:23:07,989        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49238), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:23:07,989        INFO       client.py Successful answer from server
+2022-06-11 18:23:07,990        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:23:07,990        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:24:06,224        INFO       client.py Client started
+2022-06-11 18:24:06,234        DEBUG      client.py Presence message is formed
+2022-06-11 18:24:06,234        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-11 18:24:06,235        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49239), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654964646.234097, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:24:06,736        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49239), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:24:06,736        INFO       client.py Successful answer from server
+2022-06-11 18:24:06,737        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:24:06,737        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:25:43,111        INFO       client.py Client logged out.
+2022-06-11 18:26:56,765        INFO       client.py Client started
+2022-06-11 18:26:56,768        DEBUG      client.py Presence message is formed
+2022-06-11 18:26:56,769        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-11 18:26:56,770        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49254), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654964816.768242, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:26:57,270        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49254), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:26:57,271        INFO       client.py Successful answer from server
+2022-06-11 18:26:57,271        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:26:57,271        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:27:10,453        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49254), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1654964830.452366, 'username': 'anton', 'recipient': 'qwe', 'message_text': 'qweqwe'}), {}). From module common.utils. Inside function **self.kwargs)
+2022-06-11 18:27:10,782        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49254), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function **self.kwargs)
+2022-06-11 18:27:10,782        DEBUG      client.py Message from anton received
+2022-06-11 18:29:53,313        INFO       client.py Client logged out.
+2022-06-11 18:29:55,579        INFO       client.py Client started
+2022-06-11 18:29:55,585        DEBUG      client.py Presence message is formed
+2022-06-11 18:29:55,586        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-11 18:29:55,586        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49269), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654964995.585831, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:29:56,086        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49269), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:29:56,087        INFO       client.py Successful answer from server
+2022-06-11 18:29:56,087        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:29:56,087        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:29:58,349        INFO       client.py Client logged out.
+2022-06-11 18:30:27,077        INFO       client.py Client started
+2022-06-11 18:30:27,084        DEBUG      client.py Presence message is formed
+2022-06-11 18:30:27,085        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-11 18:30:27,085        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49271), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654965027.084843, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:30:27,587        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49271), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:30:27,587        INFO       client.py Successful answer from server
+2022-06-11 18:30:27,587        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:30:27,588        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:30:29,412        INFO       client.py Client logged out.
+2022-06-11 18:31:06,536        INFO       client.py Client started
+2022-06-11 18:31:06,548        DEBUG      client.py Presence message is formed
+2022-06-11 18:31:06,549        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-11 18:31:06,549        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49278), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654965066.54866, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:31:07,050        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49278), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:31:07,050        INFO       client.py Successful answer from server
+2022-06-11 18:31:07,051        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:31:07,051        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:31:08,887        INFO       client.py Client logged out.
+2022-06-11 18:32:03,021        INFO       client.py Client started
+2022-06-11 18:32:03,027        DEBUG      client.py Presence message is formed
+2022-06-11 18:32:03,027        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-11 18:32:03,028        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49279), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654965123.0275772, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:32:03,529        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49279), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:32:03,530        INFO       client.py Successful answer from server
+2022-06-11 18:32:03,530        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:32:03,530        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:32:06,717        INFO       client.py Client logged out.
+2022-06-11 18:34:45,894        INFO       client.py Client started
+2022-06-11 18:34:45,900        DEBUG      client.py Presence message is formed
+2022-06-11 18:34:45,901        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-11 18:34:45,901        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49284), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654965285.900762, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:35:01,935        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49284), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:35:01,936        INFO       client.py Successful answer from server
+2022-06-11 18:35:01,936        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:35:01,936        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:35:56,878        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49284), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1654965356.8775601, 'username': 'anton', 'recipient': 'asd', 'message_text': 'asdasd'}), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:36:25,043        INFO       client.py Client started
+2022-06-11 18:36:25,050        DEBUG      client.py Presence message is formed
+2022-06-11 18:36:25,051        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-11 18:36:25,051        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49287), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654965385.05097, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:36:32,278        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49287), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:36:32,279        INFO       client.py Successful answer from server
+2022-06-11 18:36:32,279        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:36:32,279        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:37:02,797        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49287), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1654965422.79632, 'username': 'anton', 'recipient': 'asfadf', 'message_text': 'qefqefqef'}), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:37:06,725        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49287), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:37:06,725        DEBUG      client.py Message from anton received
+2022-06-11 18:43:57,883        INFO       client.py Client started
+2022-06-11 18:43:57,890        DEBUG      client.py Presence message is formed
+2022-06-11 18:43:57,890        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-11 18:43:57,891        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49288), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654965837.890365, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:45:25,234        INFO       client.py Client started
+2022-06-11 18:45:37,383        INFO       client.py Client started
+2022-06-11 18:45:37,390        DEBUG      client.py Presence message is formed
+2022-06-11 18:45:37,391        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-11 18:45:37,392        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49290), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654965937.390683, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:45:37,893        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49290), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:45:37,893        INFO       client.py Successful answer from server
+2022-06-11 18:45:37,893        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:45:37,893        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:45:44,107        INFO       client.py Client started
+2022-06-11 18:45:44,115        DEBUG      client.py Presence message is formed
+2022-06-11 18:45:44,116        DEBUG      client.py Function create_presence was called with parameters (('nikolay',), {}). From module __main__. Inside function main()
+2022-06-11 18:45:44,116        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49291), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654965944.1155891, 'username': 'nikolay', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:45:44,617        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49291), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:45:44,617        INFO       client.py Successful answer from server
+2022-06-11 18:45:44,617        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:45:44,617        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:45:52,412        INFO       client.py Client started
+2022-06-11 18:45:52,420        DEBUG      client.py Presence message is formed
+2022-06-11 18:45:52,421        DEBUG      client.py Function create_presence was called with parameters (('vasiliy',), {}). From module __main__. Inside function main()
+2022-06-11 18:45:52,421        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49292), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654965952.420755, 'username': 'vasiliy', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:45:52,923        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49292), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:45:52,923        INFO       client.py Successful answer from server
+2022-06-11 18:45:52,923        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:45:52,923        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:46:10,835        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49292), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1654965970.834868, 'username': 'vasiliy', 'recipient': 'anton', 'message_text': 'Привет, антоша'}), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:46:10,947        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49292), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:46:10,947        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49290), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:46:10,947        ERROR      client.py Incorrect message from server.
+2022-06-11 18:46:10,947        ERROR      client.py Incorrect message from server.
+2022-06-11 18:46:10,947        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49291), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:46:10,947        ERROR      client.py Incorrect message from server.
+2022-06-11 18:47:25,079        INFO       client.py Client started
+2022-06-11 18:47:25,082        DEBUG      client.py Presence message is formed
+2022-06-11 18:47:25,085        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-11 18:47:25,086        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49307), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654966045.082377, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:47:25,585        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49307), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:47:25,586        INFO       client.py Successful answer from server
+2022-06-11 18:47:25,586        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:47:25,587        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:47:33,415        INFO       client.py Client started
+2022-06-11 18:47:33,418        DEBUG      client.py Presence message is formed
+2022-06-11 18:47:33,419        DEBUG      client.py Function create_presence was called with parameters (('nikolay',), {}). From module __main__. Inside function main()
+2022-06-11 18:47:33,420        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49310), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654966053.4181912, 'username': 'nikolay', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:47:33,919        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49310), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:47:33,920        INFO       client.py Successful answer from server
+2022-06-11 18:47:33,920        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:47:33,920        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:47:38,237        INFO       client.py Client started
+2022-06-11 18:47:38,240        DEBUG      client.py Presence message is formed
+2022-06-11 18:47:38,241        DEBUG      client.py Function create_presence was called with parameters (('vasiliy',), {}). From module __main__. Inside function main()
+2022-06-11 18:47:38,242        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49313), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654966058.2403898, 'username': 'vasiliy', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:47:38,743        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49313), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:47:38,743        INFO       client.py Successful answer from server
+2022-06-11 18:47:38,744        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:47:38,744        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:48:01,704        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49307), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1654966081.702935, 'username': 'anton', 'recipient': 'nikolay', 'message_text': 'ghbghb'}), {}). From module common.utils. Inside function **self.kwargs)
+2022-06-11 18:48:01,766        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49290), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:48:01,766        ERROR      client.py Incorrect message from server.
+2022-06-11 18:48:01,766        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49291), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:48:01,766        ERROR      client.py Incorrect message from server.
+2022-06-11 18:48:01,766        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49292), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:48:01,766        ERROR      client.py Incorrect message from server.
+2022-06-11 18:48:01,767        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49307), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function **self.kwargs)
+2022-06-11 18:48:01,767        ERROR      client.py Incorrect message from server.
+2022-06-11 18:48:01,767        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49310), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function **self.kwargs)
+2022-06-11 18:48:01,767        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49313), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function **self.kwargs)
+2022-06-11 18:48:01,767        ERROR      client.py Incorrect message from server.
+2022-06-11 18:48:01,768        ERROR      client.py Incorrect message from server.
+2022-06-11 18:48:42,084        INFO       client.py Client started
+2022-06-11 18:48:42,086        DEBUG      client.py Presence message is formed
+2022-06-11 18:48:42,088        DEBUG      client.py Function create_presence was called with parameters (('nikolay',), {}). From module __main__. Inside function main()
+2022-06-11 18:48:42,089        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49328), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654966122.086841, 'username': 'nikolay', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:48:42,590        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49328), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:48:42,590        INFO       client.py Successful answer from server
+2022-06-11 18:48:42,591        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:48:42,591        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:48:49,686        INFO       client.py Client started
+2022-06-11 18:48:49,689        DEBUG      client.py Presence message is formed
+2022-06-11 18:48:49,690        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-11 18:48:49,691        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49331), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654966129.689544, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:48:50,192        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49331), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:48:50,193        INFO       client.py Successful answer from server
+2022-06-11 18:48:50,194        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:48:50,195        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:49:30,655        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49313), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1654966170.654304, 'username': 'vasiliy', 'recipient': 'nikolay', 'message_text': 'adfadfad'}), {}). From module common.utils. Inside function **self.kwargs)
+2022-06-11 18:49:30,723        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49290), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:49:30,723        ERROR      client.py Incorrect message from server.
+2022-06-11 18:49:30,723        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49291), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:49:30,724        ERROR      client.py Incorrect message from server.
+2022-06-11 18:49:30,724        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49292), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:49:30,724        ERROR      client.py Incorrect message from server.
+2022-06-11 18:49:30,724        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49313), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function **self.kwargs)
+2022-06-11 18:49:30,724        ERROR      client.py Incorrect message from server.
+2022-06-11 18:49:30,725        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49328), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function **self.kwargs)
+2022-06-11 18:49:30,725        ERROR      client.py Incorrect message from server.
+2022-06-11 18:49:30,725        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49331), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function **self.kwargs)
+2022-06-11 18:49:30,725        ERROR      client.py Incorrect message from server.
+2022-06-11 18:51:41,979        INFO       client.py Client started
+2022-06-11 18:51:41,986        DEBUG      client.py Presence message is formed
+2022-06-11 18:51:41,986        DEBUG      client.py Function create_presence was called with parameters (('vasiliy',), {}). From module __main__. Inside function main()
+2022-06-11 18:51:41,986        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49346), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654966301.986233, 'username': 'vasiliy', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:51:42,488        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49346), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:51:42,488        INFO       client.py Successful answer from server
+2022-06-11 18:51:42,488        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:51:42,488        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:52:28,047        INFO       client.py Client started
+2022-06-11 18:52:28,050        DEBUG      client.py Presence message is formed
+2022-06-11 18:52:28,052        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-11 18:52:28,052        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49349), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654966348.0505269, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:52:28,553        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49349), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:52:28,553        INFO       client.py Successful answer from server
+2022-06-11 18:52:28,554        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:52:28,554        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:52:50,248        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49346), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1654966370.248163, 'username': 'vasiliy', 'recipient': 'anton', 'message_text': 'fhgfjhfjh'}), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:52:50,572        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49290), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:52:50,572        ERROR      client.py Incorrect message from server.
+2022-06-11 18:52:50,573        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49291), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:52:50,573        ERROR      client.py Incorrect message from server.
+2022-06-11 18:52:50,573        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49292), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:52:50,573        ERROR      client.py Incorrect message from server.
+2022-06-11 18:52:50,573        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49346), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:52:50,573        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49328), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function **self.kwargs)
+2022-06-11 18:52:50,573        ERROR      client.py Incorrect message from server.
+2022-06-11 18:52:50,573        ERROR      client.py Incorrect message from server.
+2022-06-11 18:52:54,123        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49349), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function **self.kwargs)
+2022-06-11 18:52:54,124        ERROR      client.py Incorrect message from server.
+2022-06-11 18:54:20,778        INFO       client.py Client started
+2022-06-11 18:54:20,780        DEBUG      client.py Presence message is formed
+2022-06-11 18:54:20,782        DEBUG      client.py Function create_presence was called with parameters (('vasiliy',), {}). From module __main__. Inside function main()
+2022-06-11 18:54:20,782        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49352), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654966460.7807941, 'username': 'vasiliy', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:54:21,284        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49352), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:54:21,284        INFO       client.py Successful answer from server
+2022-06-11 18:54:21,285        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:54:21,285        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:55:09,794        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49352), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1654966475.00331, 'username': 'vasiliy', 'recipient': 'anton', 'message_text': 'zxczxc'}), {}). From module common.utils. Inside function **self.kwargs)
+2022-06-11 18:55:09,836        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49290), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:55:09,836        ERROR      client.py Incorrect message from server.
+2022-06-11 18:55:09,836        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49291), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:55:09,836        ERROR      client.py Incorrect message from server.
+2022-06-11 18:55:09,836        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49292), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:55:09,836        ERROR      client.py Incorrect message from server.
+2022-06-11 18:55:09,836        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49346), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:55:09,836        ERROR      client.py Incorrect message from server.
+2022-06-11 18:55:09,836        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49328), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function **self.kwargs)
+2022-06-11 18:55:09,837        ERROR      client.py Incorrect message from server.
+2022-06-11 18:55:09,837        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49352), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function **self.kwargs)
+2022-06-11 18:55:09,837        ERROR      client.py Incorrect message from server.
+2022-06-11 18:57:19,575        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49349), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function **self.kwargs)
+2022-06-11 18:57:19,575        ERROR      client.py Incorrect message from server.
+2022-06-11 18:57:29,966        INFO       client.py Client started
+2022-06-11 18:57:29,973        DEBUG      client.py Presence message is formed
+2022-06-11 18:57:29,973        DEBUG      client.py Function create_presence was called with parameters (('vasiliy',), {}). From module __main__. Inside function main()
+2022-06-11 18:57:29,974        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49366), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654966649.9735198, 'username': 'vasiliy', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:57:30,476        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49366), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:57:30,477        INFO       client.py Successful answer from server
+2022-06-11 18:57:30,477        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:57:30,477        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:57:34,016        INFO       client.py Client started
+2022-06-11 18:57:34,023        DEBUG      client.py Presence message is formed
+2022-06-11 18:57:34,024        DEBUG      client.py Function create_presence was called with parameters (('nikolay',), {}). From module __main__. Inside function main()
+2022-06-11 18:57:34,024        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49367), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654966654.0236511, 'username': 'nikolay', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:57:34,526        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49367), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:57:34,526        INFO       client.py Successful answer from server
+2022-06-11 18:57:34,527        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:57:34,527        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:57:36,585        INFO       client.py Client started
+2022-06-11 18:57:36,592        DEBUG      client.py Presence message is formed
+2022-06-11 18:57:36,592        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-11 18:57:36,592        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49368), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654966656.592124, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:57:37,095        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49368), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:57:37,095        INFO       client.py Successful answer from server
+2022-06-11 18:57:37,096        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:57:37,096        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:57:50,220        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49368), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1654966670.2193332, 'username': 'anton', 'recipient': 'nikolay', 'message_text': 'nikoniko'}), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 18:59:21,981        INFO       client.py Client started
+2022-06-11 18:59:21,989        DEBUG      client.py Presence message is formed
+2022-06-11 18:59:21,990        DEBUG      client.py Function create_presence was called with parameters (('vasiliy',), {}). From module __main__. Inside function main()
+2022-06-11 18:59:21,990        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49377), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654966761.989632, 'username': 'vasiliy', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:59:37,612        INFO       client.py Client started
+2022-06-11 18:59:37,619        DEBUG      client.py Presence message is formed
+2022-06-11 18:59:37,620        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-11 18:59:37,620        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49378), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654966777.6197171, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 18:59:44,142        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49377), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:59:44,142        INFO       client.py Successful answer from server
+2022-06-11 18:59:44,142        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:59:44,142        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 18:59:47,283        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49378), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 18:59:47,283        INFO       client.py Successful answer from server
+2022-06-11 18:59:47,283        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 18:59:47,283        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 19:00:00,842        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49378), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1654966800.8414268, 'username': 'anton', 'recipient': 'anton', 'message_text': 'anti-anti'}), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 19:02:42,704        INFO       client.py Client started
+2022-06-11 19:02:42,713        DEBUG      client.py Presence message is formed
+2022-06-11 19:02:42,714        DEBUG      client.py Function create_presence was called with parameters (('anton',), {}). From module __main__. Inside function main()
+2022-06-11 19:02:42,714        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49386), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654966962.71362, 'username': 'anton', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 19:02:43,216        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49386), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 19:02:43,216        INFO       client.py Successful answer from server
+2022-06-11 19:02:43,216        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 19:02:43,216        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 19:02:50,101        INFO       client.py Client started
+2022-06-11 19:02:50,109        DEBUG      client.py Presence message is formed
+2022-06-11 19:02:50,110        DEBUG      client.py Function create_presence was called with parameters (('nikolay',), {}). From module __main__. Inside function main()
+2022-06-11 19:02:50,110        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49387), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654966970.1095848, 'username': 'nikolay', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 19:02:50,612        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49387), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 19:02:50,612        INFO       client.py Successful answer from server
+2022-06-11 19:02:50,612        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 19:02:50,612        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 19:03:03,791        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49386), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1654966983.7901802, 'username': 'anton', 'recipient': 'nikolay', 'message_text': 'niko-niko'}), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 19:03:04,129        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49386), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 19:03:04,129        ERROR      client.py Incorrect message from server.
+2022-06-11 19:03:04,130        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49387), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 19:03:04,130        DEBUG      client.py Message from anton received
+2022-06-11 19:03:13,967        INFO       client.py Client started
+2022-06-11 19:03:13,974        DEBUG      client.py Presence message is formed
+2022-06-11 19:03:13,975        DEBUG      client.py Function create_presence was called with parameters (('vasiliy',), {}). From module __main__. Inside function main()
+2022-06-11 19:03:13,975        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49394), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654966993.974962, 'username': 'vasiliy', 'status': 'Online'}), {}). From module common.utils. Inside function main()
+2022-06-11 19:03:14,477        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49394), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function main()
+2022-06-11 19:03:14,477        INFO       client.py Successful answer from server
+2022-06-11 19:03:14,477        DEBUG      client.py Function answer_handler was called with parameters (({'response': 200},), {}). From module __main__. Inside function main()
+2022-06-11 19:03:14,477        INFO       client.py Connected to server 127.0.0.1:7777. Server response - 200 | OK
+2022-06-11 19:03:24,702        DEBUG      client.py Function send_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49394), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1654967004.701532, 'username': 'vasiliy', 'recipient': 'anton', 'message_text': 'antik'}), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 19:03:24,992        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49386), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 19:03:24,992        DEBUG      client.py Message from vasiliy received
+2022-06-11 19:03:24,993        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49387), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 19:03:24,993        ERROR      client.py Incorrect message from server.
+2022-06-11 19:03:24,993        DEBUG      client.py Function read_msg was called with parameters ((<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49394), raddr=('127.0.0.1', 7777)>,), {}). From module common.utils. Inside function self._bootstrap_inner()
+2022-06-11 19:03:24,993        ERROR      client.py Incorrect message from server.
+2022-06-11 19:03:35,887        INFO       client.py Client logged out.
+2022-06-11 19:03:53,478        INFO       client.py Client logged out.
